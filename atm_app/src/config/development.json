@@ -1,0 +1,13 @@
+{
+    "DEBUG ": true,
+    "FLASK_ENV": "development",
+    "JWT_SECRET_KEY": "testkey",
+    "JWT_ACCESS_TOKEN_EXPIRES": 600,
+    "SQLALCHEMY_TRACK_MODIFICATIONS": false,
+    "SQLALCHEMY_DATABASE_URI": "sqlite:///test_db.db",
+    "LOG_FILE": "api.log",
+    "REDIS_HOST": "localhost",
+    "REDIS_PORT": 6379,
+    "REDIS_DB": 0,
+    "ENV": "development"
+}

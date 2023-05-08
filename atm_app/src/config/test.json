@@ -1,0 +1,13 @@
+{
+    "DEBUG ": true,
+    "FLASK_ENV": "test",
+    "JWT_SECRET_KEY": "testkey",
+    "JWT_ACCESS_TOKEN_EXPIRES": 600,
+    "SQLALCHEMY_TRACK_MODIFICATIONS": false,
+    "SQLALCHEMY_DATABASE_URI": "postgresql://hello_flask:hello_flask@db:5432/hello_flask_dev",
+    "LOG_FILE": "api.log",
+    "REDIS_HOST": "redis",
+    "REDIS_PORT": 6379,
+    "REDIS_DB": 0,
+    "ENV": "development"
+}
